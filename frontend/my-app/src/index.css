@@ -1,0 +1,10 @@
+.head {
+  display: flex; /* Use flexbox for centering */
+  align-items: center; /* Center content vertically */
+  justify-content: center; /* Center content horizontally */
+  width: 100vw; /* Full width of the viewport */
+  height: 80px; /* Fixed height */
+  background-color: hsl(2, 10%, 100%); /* Optional: background color */
+  color: black; /* Optional: text color */
+  box-sizing: border-box; /* Ensure padding is included in the width/height */
+}

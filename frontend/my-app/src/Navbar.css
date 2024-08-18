@@ -1,0 +1,30 @@
+.nav {
+    margin: -10px;
+    background-color: #cedae7; /* Blue background */
+    padding: 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box; /* Includes padding in width calculation */
+    border-bottom: 4px solid whitesmoke;
+}
+
+.blogapp {
+    color: black;
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
+.nav2 {
+    display: flex;
+    gap: 16px; /* Space between items */
+}
+
+.nav2 div {
+    color: black;
+    cursor: pointer;
+}
+
+.nav2 div:hover {
+    color: #2c2e30; /* Lighter blue on hover */
+}
